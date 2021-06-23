@@ -8,10 +8,25 @@
     /*object-fit: cover center;*/
 }
 
+.intro h1 {
+    padding: 3px;
+    margin: 6px;
+}
+
+.intro p {
+    padding: 2px;
+}
+
 .logo {
     position: absolute;
     padding-top: 18%;
     padding-left: 50%;
     margin-top: 13px;
     margin-bottom: 25px;
+}
+
+.click {
+    padding-top: 22px;
+    margin-top: 10%;
+    padding-bottom: 30px;
 }

@@ -1,0 +1,17 @@
+.intro {
+    position: relative;
+    background-image: url('./../images/h_img.jpg');
+    height: 800px;
+    background-size: cover;
+    text-align: center;
+    background-position: center center;
+    /*object-fit: cover center;*/
+}
+
+.logo {
+    position: absolute;
+    padding-top: 18%;
+    padding-left: 50%;
+    margin-top: 13px;
+    margin-bottom: 25px;
+}

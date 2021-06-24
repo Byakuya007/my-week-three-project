@@ -117,7 +117,7 @@
     text-align: center;
 }
 
-.port-content {
+.portifolio-content {
     padding-left: 8%;
     padding-right: 8%;
     padding-bottom: 5%;
@@ -141,8 +141,50 @@
     backface-visibility: hidden;
 }
 
-.form {
+.contact {
     background-image: url('../images/c_image.jpg');
-    height: 500px;
-    background-size: cover;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: center;
+}
+
+.title {
+    padding: 6px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: serif;
+}
+
+.input[type=text],
+input [type=email],
+.form-control {
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+    border: 3px solid white;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 50%;
+    color: teal;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 25px;
+    font-family: serif;
+}
+
+.footer p {
+    margin-top: 10px;
 }

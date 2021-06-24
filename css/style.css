@@ -188,3 +188,61 @@ input [type=email],
 .footer p {
     margin-top: 10px;
 }
+
+.carier-text-1,
+.carier-text-2,
+.carier-text-3,
+.carier-text-4,
+.carier-text-5,
+.carier-text-6,
+.carier-text-7,
+.carier-text-8 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-c {
+    background-color: clear;
+    color: white;
+    font-size: 16px;
+    padding: 25px 32px;
+    border: 5px solid white;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .logo {
+        position: absolute;
+        padding-top: 18%;
+        padding-left: 50%;
+    }
+    .intro-header {
+        color: white;
+        text-align: center;
+        position: absolute;
+        padding-top: 35%;
+        padding-left: 28%;
+        font-size: 100px;
+    }
+    .intro {
+        color: white;
+        position: absolute;
+        padding-top: 55%;
+        padding-left: 12%;
+        font-size: smaller;
+    }
+    .togle-menu {
+        padding-left: 50%;
+        position: absolute;
+        bottom: 2%;
+    }
+}

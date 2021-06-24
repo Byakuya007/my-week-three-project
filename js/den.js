@@ -9,4 +9,17 @@ $(document).ready(function() {
         })
 
     })
+
+})
+
+$(document).ready(function() {
+    $("#dev").hide()
+    $("#dev-img").click(function() {
+        $("#dev").show(1000);
+        $("#dev-img").hide(1000);
+        $("#dev").click(function() {
+            $("#dev-img").show(1000)
+            $("#dev").hide(1000)
+        })
+    })
 })

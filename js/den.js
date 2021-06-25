@@ -138,7 +138,7 @@ $(document).ready(function() {
         let email = $("#email").val();
         let Textarea = $("#feedback").val();
         if (name, email, Textarea == '') {
-            alert("Fill all the field passages to make a total membership")
+            alert("Fill all spaces")
         } else {
             alert('Hello ${name}!You have quite recently joined the best mailing list ever! Make sure to watch out for ${email} for the best offers from us.');
 

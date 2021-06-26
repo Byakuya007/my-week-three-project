@@ -134,9 +134,9 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $("#submit").click(function() {
-        let name = $("#name").val();
-        let email = $("#email").val();
-        let Textarea = $("#feedback").val();
+        let name = $("form#name").val();
+        let email = $("form#email").val();
+        let Textarea = $("form#feedback").val();
         if (name, email, Textarea == '') {
             alert("Fill all spaces")
         } else {
